@@ -1,0 +1,35 @@
+https://www.udemy.com/course/develop-a-reactive-java-microservice-with-reactivej/learn/lecture/12449446#overview
+
+preguntas
+
+
+¿Qué diferencia a la programación reactiva de la programación imperativa y síncrona?
+En informática , la programación reactiva es un paradigma de programación declarativo relacionado con 
+los flujos de datos y la propagación del cambio. Con este paradigma, es posible expresar fácilmente 
+flujos de datos estáticos (p. Ej., Matrices) o dinámicos (p. Ej., Emisores de eventos) , y también 
+comunicar que existe una dependencia inferida dentro del modelo de ejecución asociado , lo que facilita 
+la propagación automática de los datos modificados. fluir. 
+Por ejemplo, en una configuración de programación imperativa ,
+{\ displaystyle a: = b + c}a: = b + c significaría que {\ displaystyle a}una se le asigna el resultado 
+de {\ displaystyle b + c}b + c en el instante en que se evalúa la expresión, y luego, los valores de 
+{\ displaystyle b}si y {\ displaystyle c}C se puede cambiar sin afectar el valor de {\ displaystyle a}
+una. Por otro lado, en la programación reactiva , el valor de{\ displaystyle a}una se actualiza 
+automáticamente siempre que los valores de {\ displaystyle b}si o {\ displaystyle c}C cambiar, sin que 
+el programa tenga que volver a ejecutar la declaración {\ displaystyle a: = b + c}a: = b + c para 
+determinar el valor asignado actualmente de {\ displaystyle a.}a.
+
+
+¿Qué es un servidor web incorporado?
+
+
+
+¿Cuáles son las principales ventajas de usar programación reactiva?
+-variables actualizadas a lo largo del tiempo
+
+
+¿Qué es reactiveJ?
+
+
+Con ReactiveJ solo puede desarrollar aplicaciones totalmente reactivas?
+
+

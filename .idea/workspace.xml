@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff6906b9-609d-4602-b5ee-544ac7f6d01c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ReactiveCrudToDoApp_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/.mvn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reactive-crud-todo-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReactiveCrudToDoApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ReactiveCrudToDoApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/daos/v1/ToDoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/daos/v1/ToDoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/daos/v2/ToDoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/daos/v2/ToDoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/entities/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/entities/ToDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quicktutorialz/nio/entities/ToDoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YBWL2JfsJyLsyzimsHPjExXWaZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff6906b9-609d-4602-b5ee-544ac7f6d01c" name="Default Changelist" comment="" />
+      <created>1582416409121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582416409121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582416418652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582416418652" />
+  </component>
+</project>
