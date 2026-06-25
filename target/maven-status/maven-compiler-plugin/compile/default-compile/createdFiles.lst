@@ -1,7 +1,10 @@
+com\quicktutorialz\nio\MainApplication.class
 com\quicktutorialz\nio\daos\v2\ToDoDaoImpl.class
 com\quicktutorialz\nio\daos\v1\ToDoDao.class
 com\quicktutorialz\nio\entities\ResponseDto.class
+com\quicktutorialz\nio\entities\Users.class
 com\quicktutorialz\nio\daos\v2\ToDoDao.class
+com\quicktutorialz\nio\endpoints\v1\ToDoEndpoints.class
 com\quicktutorialz\nio\entities\ToDoDto.class
 com\quicktutorialz\nio\daos\v1\ToDoDaoImpl.class
 com\quicktutorialz\nio\entities\ToDo.class

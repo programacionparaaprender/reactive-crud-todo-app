@@ -32,6 +32,7 @@ public class ToDoEndpoints extends Endpoints{
     Action createToDo = (HttpServletRequest request, HttpServletResponse response) -> {
         ToDoDto input = (ToDoDto) getDataFromJsonBodyRequest(request, ToDoDto.class);
         ToDo output = toDoDao.create(input);
+        response.setContentType("application/json");
         toJsonResponse(request, response, new ResponseDto(200, output));
     };
 	
@@ -39,11 +40,19 @@ public class ToDoEndpoints extends Endpoints{
     Action readToDo = (HttpServletRequest request, HttpServletResponse response) -> {
         String id = getPathVariables(request).get("id");
         Optional<ToDo> output = toDoDao.read(id);
+        response.setContentType("application/json");
         toJsonResponse(request, response, new ResponseDto(200, output.isPresent() ? output.get() : "todo not found"));
     };
 
-    @Api(path = "/api/v1/read", method = "GET", produces = "application/json")
+	@Api(path = "/api/v1/read", method = "GET", produces = "application/json")
     Action readAllToDos = (HttpServletRequest request, HttpServletResponse response) -> {
+    	List<ToDo> output = toDoDao.readAll();
+        toJsonResponse(request, response, new ResponseDto(200, output));
+
+    };
+
+    @Api(path = "/api/v1/read2", method = "GET", produces = "application/json")
+    Action readAllToDos2 = (HttpServletRequest request, HttpServletResponse response) -> {
     	Connection conexion=null; 
     	java.util.LinkedList<Users> usuarios=new java.util.LinkedList<Users>();
     	try {
@@ -71,11 +80,13 @@ public class ToDoEndpoints extends Endpoints{
 	                    usuarios.add(temp);
 	                }
 	                conexion.close();
+	                response.setContentType("application/json");
 	                toJsonResponse(request, response, new ResponseDto(200, usuarios));
 	                //return new ResponseEntity<LinkedList<Users>>(usuarios, HttpStatus.OK);
 	            }
 	        catch(Exception ex)
 	        {
+	        	response.setContentType("application/json");
 	        	toJsonResponse(request, response, new ResponseDto(200, ""));
 	        	//return new ResponseEntity<LinkedList<Users>>(HttpStatus.NO_CONTENT);
 	        }
@@ -89,12 +100,14 @@ public class ToDoEndpoints extends Endpoints{
     Action updateToDo = (HttpServletRequest request, HttpServletResponse response) -> {
         ToDo input = (ToDo) getDataFromJsonBodyRequest(request, ToDo.class);
         Optional<ToDo> output = toDoDao.update(input);
+        response.setContentType("application/json");
         toJsonResponse(request, response, new ResponseDto(200, output.isPresent() ? output.get() : "todo not updated"));
     };
 
     @Api(path = "/api/v1/delete/{id}", method = "GET", produces = "application/json")
     Action deleteToDo = (HttpServletRequest request, HttpServletResponse response) -> {
         String id = getPathVariables(request).get("id");
+        response.setContentType("application/json");
         toJsonResponse(request, response, new ResponseDto(200, toDoDao.delete(id) ? "todo deleted" : "todo not found"));
     };
 	

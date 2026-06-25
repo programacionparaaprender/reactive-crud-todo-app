@@ -1,6 +1,6 @@
 package com.quicktutorialz.nio.entities;
 
-import java.time.LocalDate;
+import java.util.Date;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -14,7 +14,7 @@ public class ToDo {
     private String id;
     private String title;
     private String description;
-    private LocalDate date;
+    private Date date;
 
     public ToDo() {
     }
@@ -23,7 +23,7 @@ public class ToDo {
         this.id = UUID.randomUUID().toString();
         this.title = title;
         this.description = description;
-        this.date = LocalDate.now();
+        this.date = new Date();
     }
 
     public String getId() {
@@ -46,8 +46,12 @@ public class ToDo {
         this.description = description;
     }
 
-    public LocalDate getDate() {
+    public Date getDate() {
         return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     @Override
