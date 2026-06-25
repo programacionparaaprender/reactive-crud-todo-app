@@ -117,5 +117,7 @@ public class ToDoEndpoints extends Endpoints{
 		setEndpoint( "/api/v1/read", readAllToDos);
 		setEndpoint( "/api/v1/update", updateToDo);
 		setEndpoint( "/api/v1/delete/{id}", deleteToDo);
+		// Registrar los nuevos endpoints de HilosController
+		new HilosController();
 	}
 }
