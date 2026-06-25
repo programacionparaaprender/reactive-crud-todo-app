@@ -119,5 +119,6 @@ public class ToDoEndpoints extends Endpoints{
 		setEndpoint( "/api/v1/delete/{id}", deleteToDo);
 		// Registrar los nuevos endpoints de HilosController
 		new HilosController();
+		new ResilientAppController();
 	}
 }
