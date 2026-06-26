@@ -120,5 +120,6 @@ public class ToDoEndpoints extends Endpoints{
 		// Registrar los nuevos endpoints de HilosController
 		new HilosController();
 		new ResilientAppController();
+		new PageEventController();
 	}
 }

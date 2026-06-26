@@ -78,3 +78,35 @@ curl http://localhost:8383/api/v1/delete/your-todo-id
 ###
 >- mvnw clean install
 >- mvnw exec:java
+
+
+
+# Proyecto Apache Kafka con Java 21
+
+Este proyecto demuestra cómo usar Apache Kafka con Java 21, incluyendo características modernas como Virtual Threads.
+
+### curso kafka
+>- https://www.udemy.com/course/kafka-cluster-deployment-and-java-springboot/
+
+## Requisitos Previos
+
+1. Java 21 o superior
+2. Maven 3.6+
+3. Docker y Docker Compose (opcional, para Kafka local)
+4. Git
+5. modificar el server.properties la sección log.dirs=C:/kafka_2.13-2.8.0/data/kafka-logs
+## Configuración del Proyecto
+
+### 1. Clonar el repositorio
+
+```bash
+git clone <repository-url>
+cd kafka-java21-project
+```
+
+### probar endpoint
+>- http://localhost:8080/api/publish/T4/blog
+
+####
+>- sb-nb6fj46885103@personal.example.com
+>- ly3^tOQ0
